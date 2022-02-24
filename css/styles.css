@@ -1,0 +1,304 @@
+ /* Обнуление START */
+ *, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul,
+ol,
+li {
+    list-style: none;
+}
+img{
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+html,
+body{
+    background-color: #FAFBFD;
+    height: 100%;
+    line-height: 1;
+}
+/* Обнуление END */
+
+
+
+/* ========================================================= */
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.wrapper{
+    max-width: 1316px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-top: 31px;
+    margin-bottom: 43px;
+    display: flex;
+    align-items: center;
+}
+.header__logo {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0 0 16px;
+    font-size: 30px;
+    font-family: Libre Baskerville;
+    font-weight: 700;
+}
+.header__logo::before {
+position: absolute;
+content: '';
+background-color: black;
+width: 57px;
+height: 57px;
+left: 0;
+top: 0;
+}
+
+.header__logo-white {
+    color: #fff;
+    z-index: 2;
+}
+.header__menu {
+    margin-left: 31px;
+    flex: 1 1 auto;
+    padding: 18px 0;
+}
+.menu {
+    
+}
+.menu__list {
+    display: flex;
+    gap: 31px;
+}
+.menu__item {
+    font-family: Libre Baskerville;
+    font-size: 20px;
+    line-height: 25px;
+}
+.menu__item:first-child{
+    font-weight: 700;
+}
+.header__buttons {
+    flex: 0 1 186px;
+    align-items: center;
+    display: flex;
+    gap: 21px;
+    padding-top: 4px;
+
+}
+.header__login{
+    padding: 8px 41px;
+    border: 2px solid #1C1C1C;
+    border-radius: 10px;
+    font-family: Libre Baskerville;
+    color: #1C1C1C;
+    line-height: 25px;
+}
+/* ===================================================================================== */
+.top-article {
+    width: 100%;
+    min-height: 592px;
+    background: url("../img/Most-Dangerous-Technology/Most-Dangerous-Technology.png") no-repeat;
+    margin-bottom: 50px;
+}
+.top-article__content{
+    background-color: white;
+    width: 509px;
+    height: 483px;
+    margin-left: 45px;
+    padding: 76px 40px 96px 40px;
+}
+.top-article__text-block{
+
+}
+
+
+
+.text-block{
+}
+.text-block__marker {
+    font-size: 20px;
+    line-height: 27px;
+    color: rgba(28, 28, 28, 0.5);
+}
+.text-block__title {
+    font-family: Libre Baskerville;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 41px;
+    margin-bottom: 12px;
+}
+.text-block__info{
+    display: flex;
+    margin-bottom: 14px;
+}
+.text-block_author {
+    line-height: 22px;
+    color: rgba(28, 28, 28, 0.5);
+    margin-right: 22px;
+}
+.text-block__stats {
+    line-height: 22px;
+    color: rgba(28, 28, 28, 0.5);
+}
+.text-block__text {
+    line-height: 24px;
+}
+/* ================================================================================================= */
+
+.Editors-Picks {
+    margin-bottom: 62px;
+}
+.Editors-Picks__container {
+    max-width: 858px;
+    margin: 0 auto;
+}
+.Editors-Picks__title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 57px;
+    position: relative;
+    margin-bottom: 71px;
+}
+.Editors-Picks__title::after{
+position: absolute;
+content: '';
+width: 190px;
+height: 3px;
+background-color: black;
+bottom: -17px;
+left: 333px;
+}
+.Editors-Picks__articles{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.Editors-Picks__article {
+    display: flex;
+    gap: 55px;
+}
+.Editors-Picks__article__image {
+}
+.Editors-Picks__text-block {
+}
+/* ======================================================= */
+.Laborum-Ullamco-Sunt {
+    width: 100%;
+    min-height: 592px;
+    background: url("../img/Laborum-Ullamco-Sunt/Laborum-Ullamco-Sunt.png") no-repeat;
+    padding-top: 54px;
+    margin-bottom: 94px;
+}
+.Laborum-Ullamco-Sunt__content{
+    background-color: white;
+    width: 509px;
+    height: 483px;
+    margin-left: 729px;
+
+    padding: 76px 40px 96px 40px;
+}
+.Laborum-Ullamco-Sunt__text-block{
+
+}
+
+/* =================================== */
+
+
+
+.articles {
+}
+.articles__container {
+    max-width: 1122px;
+    margin: 0 auto;
+    display: flex;
+    gap: 120px;
+}
+.articles__cards {
+    max-width: 812px;
+    display: flex;
+    flex-direction: column;
+    gap: 66px;
+}
+.articles__card {
+    display: flex;
+    gap: 37px;
+}
+.articles__card__image {
+}
+.articles__text-block {
+}
+
+.tags {
+
+}
+.tags__title {
+    padding-bottom: 3px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+.tags__list {
+}
+.tags__item{
+    line-height: 45px;
+}
+
+
+
+
+
+
+
+/* ABOUT */
+.wrapper__about{
+    max-width: 1245px;
+    margin: 0 auto;
+}
+.publishing-company{
+text-align: center;
+display: inline-block;
+}
+.publishing-company__title {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0 0 16px;
+    font-size: 30px;
+    font-family: Libre Baskerville;
+    font-weight: 700;
+}
+.publishing-company__title::before {
+position: absolute;
+content: '';
+background-color: black;
+width: 57px;
+height: 57px;
+left: 0;
+top: 0;
+}
+.publishing-company__title-white {
+    color: #fff;
+    z-index: 2;
+}
